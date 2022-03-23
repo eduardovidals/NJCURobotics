@@ -1,0 +1,36 @@
+.tile {
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tile-black {
+    background-color: grey;
+}
+
+.tile-white {
+    background-color: white;
+}
+
+.black-piece {
+    background-color: black;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+
+.white-piece {
+    display: flex;
+    background-color: rgba(255, 0, 0);
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
